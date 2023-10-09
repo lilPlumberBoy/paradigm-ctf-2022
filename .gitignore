@@ -1,3 +1,5 @@
 .env
 .envrc
 .python-version
+node_modules
+pnpm-lock.yaml

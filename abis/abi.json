@@ -1,7 +1,6 @@
 {
-    "Random":[
+    "random":[
     {
-        "inputs": [],
         "name": "solved",
         "outputs": [
             {
@@ -10,9 +9,8 @@
                 "type": "bool"
             }
         ],
-        "stateMutability": "view",
-        "type": "function",
-        "constant": true
+        "stateMutability": "nonpayable",
+        "type": "function"
     },
     {
         "inputs": [
@@ -22,6 +20,19 @@
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"
-    }
-]
+    }],
+    "setup":[
+        {
+            "name": "random",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ]
 }

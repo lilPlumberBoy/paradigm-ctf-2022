@@ -3,3 +3,8 @@
 .python-version
 node_modules
 pnpm-lock.yaml
+broadcast
+.github
+lib/
+cache/
+out/
